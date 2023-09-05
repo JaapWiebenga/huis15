@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Contact</title>
+            <link rel="stylesheet" type="text/css" href="main.css">
+                <style type="text/css">
+                    input[type="text"], input[type="email"], textarea, select, button{
+                    display: block;
+                    margin: 15px 0px;
+                    width: 400px;
+                    box-sizing: border-box;
+                    border-radius: 4px;
+                    box-shadow: inset 2px 2px 5px grey;
+                    }
+                    textarea{
+                    height: 200px;
+                    background-color: rgb(52, 82, 62);
+                    color:white;
+                    padding: 5px 4px;
+                    }
+                    button:active{
+                    background-color: lightgreen;
+                    color: blue;
+                    border-radius: 8px;
+                    box-shadow: inset 2px 2px 5px green;
+                    } 
+                    form { 
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 20%;
+                    }
+                </style>
+        </head>
+<body>
+    <div>
+        <header>   
+        <h1>Jaap Wiebenga</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Mijnverhaal.html">CV</a></li>
+                <li><a href="contact.html">Contact</a></li> 
+            </ul>
+        </header>            
+            <p>Wilt u contact met mij vul het onderstaande contactformulier dan in</p>
+            <br>
+            <br>
+            <form> Contactformulier
+                <input type="text" placeholder="Uw voornaam" />
+                <input type="text" placeholder="Uw achternaam" />
+                <input type="text" placeholder="Uw adres" />
+                <input type="email" placeholder="Uw e-mailadres" />
+                <textarea placeholder="Uw bericht"></textarea>
+                <select>
+                <option>Wat is de uitkomst van vijf plus drie?</option>
+                <option>91</option>
+                <option>8</option>
+                <option>6</option>
+                <option>1</option>
+                </select>
+                <button>Verzend</button>
+                </form>
+            <br>
+        <footer>© copyright 2023 Jaap Wiebenga</footer> 
+    </div>
+</body>
+</html>
